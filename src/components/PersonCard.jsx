@@ -1,5 +1,5 @@
 import React from 'react';
-const PersonCard = props => {
+const PersonCard = (props) => {
     return(
         <div>
             <h1>{ props.lastName }, { props.firstName }</h1>
@@ -9,4 +9,3 @@ const PersonCard = props => {
     );
 }
 export default PersonCard;
-
